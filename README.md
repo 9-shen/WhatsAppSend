@@ -46,15 +46,15 @@ and get the X,Y Position
 python pyauto_screen.py
 ```
 <ul>
-<li>Update these lines in main.py</li>
-<ul>
-<li>Line 8 : change the contacts file name *.csv</li>
-<li>Line 11 : Chose the message file</li>
-</ul>
 <li>Update these lines in Config.py</li>
 <ul>
 <li>Line 2 : Put the X value</li>
 <li>Line 3 : Put the Y value</li>
+</ul>
+<li>Update these lines in main.py</li>
+<ul>
+<li>Line 8 : change the contacts file name *.csv</li>
+<li>Line 11 : Chose the message file</li>
 </ul>
 </ul>
 
@@ -81,7 +81,7 @@ PS: for this script it will take message randomly from Message folder and send r
 python send_msg.py
 ```
 PS: the file will open the browser and gives you 20 seconds delay to scan the QR Code<br>
-after that the script will open new instance each time, if the number has a whatsapp account it will choose randm message to send to, and close the current tab and open a new instance each time
+after that the script will open new instance each time, if the number has a whatsapp account it will choose random message to send to, and close the current tab and open a new instance each time
 
 ## Contact
 For more info : contact@9-shen.com
