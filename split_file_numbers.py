@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import math
 
+import config
+
 
 # Function to split the CSV file
 def split_csv_file(file_path, output_dir, num_splits=20, encoding='ISO-8859-1'):
@@ -45,7 +47,7 @@ def split_csv_file(file_path, output_dir, num_splits=20, encoding='ISO-8859-1'):
 
 
 # Directory containing the CSV files
-source_dir = 'ContactsSource'
+source_dir = config.ContactsSource
 
 # Loop through each file in the source directory
 for file_name in os.listdir(source_dir):

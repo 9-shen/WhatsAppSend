@@ -1,4 +1,5 @@
 import csv
+import config
 
 # Read the CSV file
 contacts = []
