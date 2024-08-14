@@ -39,7 +39,7 @@ pip install -r requirements.txt
 PYAUTO_X = 380
 PYAUTO_Y = 310
 ```
-To This must be run the script : pyauto_screen.py <br>
+To do This must be run the script : pyauto_screen.py <br>
 and get the X,Y Position
 ```bash
 # pyauto_screen.py
@@ -50,6 +50,11 @@ python pyauto_screen.py
 <ul>
 <li>Line 8 : change the contacts file name *.csv</li>
 <li>Line 11 : Chose the message file</li>
+</ul>
+<li>Update these lines in Config.py</li>
+<ul>
+<li>Line 2 : Put the X value</li>
+<li>Line 3 : Put the Y value</li>
 </ul>
 </ul>
 
