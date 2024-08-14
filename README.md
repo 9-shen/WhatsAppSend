@@ -5,8 +5,8 @@
 - [Installation](#installation)
 - [Requirements](#requirements)
 - [WhatsApp Send Search Bar
-](#WhatsApp Send Search Bar)
-- [WhatsApp New Instance](#WhatsApp New Instance)
+](#WhatsAppSendSearchBar)
+- [WhatsApp New Instance](#WhatsAppNewInstance)
 - [Contact](#contact)
 
 ## Installation
