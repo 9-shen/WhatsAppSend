@@ -4,9 +4,9 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Requirements](#requirements)
-- [WhatsApp Send Search Bar
+- [WhatsAppSendSearchBar
 ](#WhatsAppSendSearchBar)
-- [WhatsApp New Instance](#WhatsAppNewInstance)
+- [WhatsAppNewInstance](#WhatsAppNewInstance)
 - [Contact](#contact)
 
 ## Installation
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 3 - We have 2 version of the script : <br>
     3.1 - WhatsApp Send Search Bar <br>
     3.2 - WhatsApp Send New Instance <br>
-## WhatsApp Send Search Bar
+## WhatsAppSendSearchBar
 <ul>
 <li>File Name : main.py</li>
 <li>Make sure before to run this file import the contact list to your phone</li>
@@ -61,7 +61,7 @@ python main.py
 PS: the file will open the browser and gives you 20 seconds delay to Scan the QR Code<br>
 after that the script will automatically send the messages using search bar.
 
-## WhatsApp New Instance
+## WhatsAppNewInstance
 <ul>
 <li>File name : send_msg.py</li>
 <li>before run the file please update this Line :</li>
