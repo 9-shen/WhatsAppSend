@@ -5,14 +5,16 @@ import logging
 import os
 import random
 
+import config
+
 # Configure logging to track sent messages
 logging.basicConfig(filename='message_log.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # Read the CSV file containing names and phone numbers, making sure numbers are strings
-contacts = pd.read_csv('Contacts/contacts.csv', dtype={'number': str})
+contacts = pd.read_csv(config.Contacts + '/contacts.csv', dtype={'number': str})
 
 # Path to the Messages folder
-messages_folder = 'Messages/'
+messages_folder = config.Messages + '/'
 
 # Get a list of all text files in the Messages folder
 message_files = [file for file in os.listdir(messages_folder) if file.endswith('.txt')]

@@ -2,3 +2,5 @@
 2024-08-14 10:04:59,894 - Message sent to Digita (+ 212606729210) using message1.txt
 2024-08-14 10:05:33,348 - Message sent to 9-shen (+ 212707962826) using message.txt
 2024-08-14 10:05:43,349 - Total messages sent: 3
+2024-08-14 12:00:27,496 - Message sent to Nouaman (+212669611393) using message.txt
+2024-08-14 12:01:01,023 - Message sent to Digita (+ 212606729210) using message2.txt

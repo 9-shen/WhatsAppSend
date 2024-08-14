@@ -2,12 +2,13 @@ import pywhatkit as kit
 import pandas as pd
 import pyautogui
 import time
+import config
 ''' PS: Must The Contacts Are Already in WhatsApp Contact List '''
 # Read the CSV file containing names and phone numbers, making sure numbers are strings
-contacts = pd.read_csv('Contacts/contacts.csv', dtype={'number': str})
+contacts = pd.read_csv(config.Contacts + '/contacts.csv', dtype={'number': str})
 
 # Read the message from a text file
-with open('Messages/message.txt', 'r', encoding='utf-8') as file:
+with open(config.Messages + '/message.txt', 'r', encoding='utf-8') as file:
     message_template = file.read()
 
 # Time to wait between sending messages (in seconds)
@@ -32,7 +33,7 @@ for index, contact in contacts.iterrows():
             time.sleep(10)  # Wait for the page to load and message to send
         else:
             # Click on the chat search bar (assuming the browser window is active and in focus)
-            pyautogui.click(380, 310)  # Adjust this to the location of the search bar
+            pyautogui.click(config.PYAUTO_X, config.PYAUTO_Y)  # Adjust this to the location of the search bar
             pyautogui.write(number)  # Type the number
             time.sleep(2) # Wait For 2s after typing the number
             pyautogui.press('enter')  # Press enter to open the chat
@@ -45,7 +46,7 @@ for index, contact in contacts.iterrows():
             time.sleep(1) # Wait 1s before Clear the search bar
 
             # Clear the search bar
-            pyautogui.click(380, 310)  # Click on the search bar again
+            pyautogui.click(config.PYAUTO_X, config.PYAUTO_Y)  # Click on the search bar again
             time.sleep(2)  # Wait briefly to ensure the click registers
             pyautogui.hotkey('ctrl', 'a')  # Select all text in the search bar
             time.sleep(1) # Wait 1s before hit delete button
